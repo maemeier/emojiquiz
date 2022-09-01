@@ -70,3 +70,7 @@ border-bottom: 1px solid black;
 #answer{
   color = #078469
 }
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease;
+  opacity: 0;
+}

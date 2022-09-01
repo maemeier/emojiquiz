@@ -67,6 +67,11 @@ border-bottom: 1px solid black;
   margin-bottom: 80px
 }
 
+#title{
+  font-size: 50px;
+  margin-bottom: 80px
+}
+
 #answer{
   color = #078469
 }

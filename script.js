@@ -1,10 +1,20 @@
-console.log("test");
+function submit_button(element){
 
 
-function submit_button(){
-  document.getElementById('answer').value ="Yippy! The answer is correct"
-  event.target.innerHTML = "Next question"
+
+let correct = document.getElementById('answer').value
+if(correct == "sagrada familia"){
+  document.getElementById('answer').value = "correct answer!!"
+  document.getElementById('answer').style.color = "#078469"
+} else {
+  document.getElementById('answer').value = "wrong answer 😢"
+  document.getElementById('answer').style.color = "#9D0000"
 }
+event.target.innerHTML = "Next question"
+
+
+}
+
 
 
 
@@ -14,8 +24,7 @@ function showQuestion(q){
 }
 let questions = {
   title : "🏗️ 📸",
-  correctAnswer: "lion king"
+  correctAnswer: "sagrada familia"
 }
-
 
 showQuestion(questions)

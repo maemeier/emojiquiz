@@ -22,11 +22,14 @@ button{
  margin-bottom: 15px;
  text-align: center;
  font-family: 'Poppins', sans-serif;
+ font-size: 16px
 
 }
 
 .placeholder_text{
-  color: #A4A4A4
+  color: #A4A4A4;
+
+
 }
 
 .image_quiz{
@@ -43,7 +46,7 @@ input{
   border: 0;
 outline: 0;
 border-bottom: 1px solid black;
-
+font-size: 16px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
 
@@ -79,3 +82,10 @@ border-bottom: 1px solid black;
   transition: opacity 0.5s 0.5s ease;
   opacity: 0;
 }
+
+
+
+
+
+document.getElementById('answer').value ="Yippy! The answer is correct"
+event.target.innerHTML = "Next question"

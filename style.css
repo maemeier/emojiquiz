@@ -29,8 +29,8 @@ button{
 .placeholder_text{
   color: #A4A4A4;
 
-
 }
+
 
 .image_quiz{
   width: 145px;
@@ -49,8 +49,13 @@ border-bottom: 1px solid black;
 font-size: 16px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+}
 
-
+input, select{
+  color: #000000;
+}
+input:focus {
+    color: #000000;
 }
 
 .image_quiz{

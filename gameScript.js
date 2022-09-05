@@ -20,7 +20,7 @@ var questRep =[
   rep:"camp nou"
 },
 {
-  quest:"🚠 🛍️",
+  quest:"🚠 🌳",
   rep:"montjuic"
 },
 {

@@ -15,16 +15,21 @@
 <h1 class="title">Barcelona</h1>
 
 <div class="image_box">
-  <div id="title"> quiz 1
+  <div id="question"> quiz 1
 
   </div>
 </div>
-<input id="answer" type="text" name="" class="correctAnswer" placeholder="Type your answer here" class="placeholder">
-<button type="button" id="btn" class="primary_button" onclick="submit_button(event)">Submit</button>
+<input id="reponse" type="text" name="" class="correctAnswer" placeholder="Type your answer here" class="placeholder">
+<p id="showStatus"></p>
+<button type="button" id="submitButton" class="primary_button" onclick="submit_button(event)">Submit</button>
+<div id="score">
+          <div id ="wrong">  0 </div>
+          <div id ="correct"> 0 </div>
+      </div>
 </div>
   </body>
 
-  <script type="text/javascript" src="script.js">
+  <script type="text/javascript" src="gameScript.js">
 
   </script>
 </html>

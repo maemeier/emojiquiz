@@ -4,27 +4,28 @@ var boutonValider = document.getElementById("submitButton");
 
 var questRep =[
 {
-  quest:"🏗️ 📸",
-  rep:"sagrada familia"
-},
-{
-  quest:"🐇 🎩 🌿",
-  rep:"alice garden"
+  quest:"⛪ 🏗️ 📸",
+  rep:"sagrada familia",
+  hint: "a large unfinished church building in Barcelona"
 },
 {
   quest:"🍎 🛍️",
   rep:"apple store"
 },
 {
-  quest:"⛺ 🏟️",
+  quest:"🐇 🎩 🌿",
+  rep:"alice garden"
+},
+{
+  quest:"⛺ 🏟️ ⚽",
   rep:"camp nou"
 },
 {
-  quest:"🚠 🌳",
+  quest:"🚠 ⛲ 🌳",
   rep:"montjuic"
 },
 {
-  quest:"🎨 👨‍🎨 🖼️",
+  quest:"👨‍🎨 🖼️",
   rep:"picasso museum"
 },
 {

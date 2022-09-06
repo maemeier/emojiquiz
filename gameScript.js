@@ -50,13 +50,13 @@ function nextQuestion () {
 }
 
 submitButton.onclick = function () {
-      if (reponse.value.toLowerCase() === questRep[n].rep){
+      if (reponse.value.toLowerCase().trim() === questRep[n].rep){
       reponse.value = "BRAVO !!!";
           setTimeout (nextQuestion,2000);
           nbJuste += 1;
         correct.textContent = nbJuste ;
       } else {
-        reponse.value = "Wrong answer";
+        reponse.value = "Opps, wrong answer";
         setTimeout (nextQuestion,2000);
         nbFaux += 1 ;
         wrong.textContent = nbFaux ;

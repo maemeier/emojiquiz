@@ -70,6 +70,17 @@ input:focus {
   width: 275px;
   height: 48px
 }
+.primary_button:hover{
+  background-color: #004B49;
+}
+.inactive_button{
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 275px;
+  height: 48px
+}
 
 .title{
   margin-bottom: 30px

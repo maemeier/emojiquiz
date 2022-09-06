@@ -22,15 +22,27 @@ var questRep =[
 },
 {
   quest:"🚠 ⛲ 🌳",
-  rep:"montjuic"
+  rep:"montjuic park"
 },
 {
   quest:"👨‍🎨 🖼️",
   rep:"picasso museum"
 },
 {
-  quest:"🍎 🛍️",
-  rep:"apple store"
+  quest:"🎡 🚵 🚡",
+  rep:"tibidabo"
+},
+{
+  quest:"🦎 🌳",
+  rep:"park guell"
+},
+{
+  quest:"🎶 🏛️ 🗿",
+  rep:"Palau de la Musica Catalana"
+},
+{
+  quest:"⛲️ 🕊 🍎 🛍️",
+  rep:"place de catalunya"
 }
 ]
 
